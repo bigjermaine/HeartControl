@@ -26,6 +26,8 @@
 		BE70700B1D57A14300E41B95 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE70700A1D57A14300E41B95 /* HealthKit.framework */; };
 		BE70700D1D57A29500E41B95 /* AuthorizationManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70700C1D57A29500E41B95 /* AuthorizationManger.swift */; };
 		BEB5C5BB1D4F656D00BBF490 /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5C5BA1D4F656D00BBF490 /* HeartRateManager.swift */; };
+		D0846D932CB299F800BD759F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0846D922CB299F800BD759F /* HapticManager.swift */; };
+		D0846D942CB29A5800BD759F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0846D922CB299F800BD759F /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,7 @@
 		BE70700A1D57A14300E41B95 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE70700C1D57A29500E41B95 /* AuthorizationManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationManger.swift; sourceTree = "<group>"; };
 		BEB5C5BA1D4F656D00BBF490 /* HeartRateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		D0846D922CB299F800BD759F /* HapticManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,7 @@
 				BE25B00D1D4F33B100DAF094 /* InterfaceController.swift */,
 				BE25B00F1D4F33B100DAF094 /* ExtensionDelegate.swift */,
 				BE496A221D4F4D9A00C82C4F /* WorkoutManager.swift */,
+				D0846D922CB299F800BD759F /* HapticManager.swift */,
 				BEB5C5BA1D4F656D00BBF490 /* HeartRateManager.swift */,
 				BE70700C1D57A29500E41B95 /* AuthorizationManger.swift */,
 				BE3FDBDB1D576B8D009165A8 /* HeartRate.swift */,
@@ -317,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -368,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE25AFED1D4F33B100DAF094 /* ViewController.swift in Sources */,
+				D0846D942CB29A5800BD759F /* HapticManager.swift in Sources */,
 				BE25AFEB1D4F33B100DAF094 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +384,7 @@
 			files = (
 				BE25B0101D4F33B100DAF094 /* ExtensionDelegate.swift in Sources */,
 				BE496A231D4F4D9A00C82C4F /* WorkoutManager.swift in Sources */,
+				D0846D932CB299F800BD759F /* HapticManager.swift in Sources */,
 				BE5AEE171D4F7CED0027C49C /* HKUnit+BeatsPerMinute.swift in Sources */,
 				BE25B00E1D4F33B100DAF094 /* InterfaceController.swift in Sources */,
 				BE3FDBDC1D576B8D009165A8 /* HeartRate.swift in Sources */,

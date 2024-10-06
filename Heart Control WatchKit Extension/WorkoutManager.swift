@@ -7,7 +7,8 @@
 //
 
 import HealthKit
-
+import Foundation
+import UIKit
 enum WorkoutState {
 
     case started, stopped
@@ -60,6 +61,7 @@ class WorkoutManager: NSObject {
 
     func start() {
         // If we have already started the workout, then do nothing.
+      HapticManager.shared.vibrateForSelection()
         if (session != nil) {
             // Another workout is running.
             return
@@ -88,6 +90,7 @@ class WorkoutManager: NSObject {
 
     func stop() {
         // If we have already stopped the workout, then do nothing.
+      HapticManager.shared.vibrateForSelection()
         if (session == nil) {
             return
         }
